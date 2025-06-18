@@ -332,6 +332,52 @@ footer #social-media-footer ul li:hover a .fa-facebook{
 }
 
 
+/* BLOGLIST PAGE */
+.page-heading{
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    transition: all .4s;
+    display: inline-block;
+    padding: 4px 32px;
+    margin-top: 120px;
+    color: black;
+}
+.page-heading:hover{
+    padding: 4px 48px;
+    background: red;
+}
+.card-meta{
+    color: #333;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 8px;
+}
+.card-meta a{
+    color: #333;
+    transition: .4s;
+}
+
+/* PAGINATION */
+.pagination{
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pagination a{
+    padding: 8px 16px;
+    border-top: 3px solid white;
+    display: inline-block;
+    transition: .4s;
+}
+
+.pagination a:hover{
+    border-top: 3px solid black;
+    text-decoration: none;
+}
+
 /* 
 * MEDIA QUERIES
 */
