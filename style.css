@@ -249,6 +249,13 @@ section{
     padding: 0 8px;
 }
 
+.card-meta-blogpost{
+    color: #333;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 16px;
+}
+
 /* Read more Button */
 .btn-readmore{
     padding: 8px 24px;
@@ -378,6 +385,44 @@ footer #social-media-footer ul li:hover a .fa-facebook{
     text-decoration: none;
 }
 
+/* SINGLE BLOGPOST */
+#post-container{
+    display: flex;
+}
+
+#blogpost{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border-left: 3px solid #999;
+}
+
+#blogpost .card{
+    width: 100%;
+}
+
+#blogpost .card-image img{
+    box-shadow: none;
+}
+
+/* SIDE BAR */
+#sidebar{
+    background: #333;
+    flex: 1;
+    color: white;
+    padding: 8px 16px;
+    box-shadow: inset 27px 0 51px -18px rgba(0,0,0,0.75);
+}
+
+/* comment section */
+#comment-section{
+    border-top: 2px solid #eee;
+    padding: 8px;
+}
+
+
+
+
 /* 
 * MEDIA QUERIES
 */
@@ -394,6 +439,13 @@ footer #social-media-footer ul li:hover a .fa-facebook{
         display: block;
     }
     #searchbox{
+        display: none;
+    }
+    #blogpost{
+        width: 100%;
+        border-left: 0;
+    }
+    #sidebar{
         display: none;
     }
 }
