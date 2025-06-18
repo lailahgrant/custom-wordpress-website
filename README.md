@@ -36,4 +36,10 @@
 - html pages
 - get the google fonts, copy the import and paste in CSS or use the CDN
 
+<hr>
+
+#### 3. PHP Introduction 
+- PHP Basics
+    - XAMPP
+    - Variables
 
