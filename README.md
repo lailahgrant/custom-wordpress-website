@@ -42,7 +42,7 @@
 - PHP Basics
     - XAMPP
 
-- Variables
+- a) Variables
 ```php
 <?php
 
@@ -63,7 +63,24 @@ echo 'The sum of ' .$num1. ' and ' .$num2. ' is  ' .$sum;
 
 <hr>
 
+- b) Conditional statements
+```php
+echo "<h1> Conditional Statements </h1>";
+$loggedIn = false;
+if ($loggedIn == true){
+    echo "Welcome";
+} else{
+    echo "Please log in first";
+}
 
+```
+
+<hr>
+
+- c) Array
+```php
+
+```
 
 
 
