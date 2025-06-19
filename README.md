@@ -41,5 +41,33 @@
 #### 3. PHP Introduction 
 - PHP Basics
     - XAMPP
-    - Variables
+
+- Variables
+```php
+<?php
+
+$message = "Welcome to the lesson";
+$num1 = 23;
+$num2 = 45;
+$sum = $num1 + $num2;
+echo "<h1>$message</h1>";
+echo "<p>The sum of $num1 and $num2 is $sum.</p>";
+
+//concatenation
+echo 'The sum of ' .$num1. ' and ' .$num2. ' is  ' .$sum;
+?>
+
+```
+
+- Echo - display messages on screen
+
+<hr>
+
+
+
+
+
+
+
+
 
